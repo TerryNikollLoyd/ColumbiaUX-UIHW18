@@ -1,0 +1,48 @@
+/* *{
+    border: 0.5px solid red;
+} */
+
+.page-border{
+    border: 20px solid #754EF9;
+}
+
+.my-skills{
+    text-align: center;
+    margin-top: 5%;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 2%;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.navigation{ 
+    background-color:#754EF9;
+    height: 30%;
+    display: flex; 
+    justify-content:space-between;
+    margin: -3px;
+ }
+ 
+ .logo img{
+   width: 70px;
+   height: auto;
+   display: flex;
+   justify-content: left;
+ }
+ 
+  .navbutton{
+    background-color: #754EF9;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif; 
+     display: flex;
+     list-style-type: none;
+     align-items: center;
+ 
+      
+  }
+ 

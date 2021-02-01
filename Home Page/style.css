@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 0.5px solid red;
-  }   
+  }    */
  
 .page-border{
     border: 20px solid #754EF9;
@@ -13,24 +13,26 @@ body{
    background-color:#754EF9;
    height: 75px;
    display: flex; 
-   justify-content: flex-end;
-   align-items: inherit;
+   justify-content:space-between;
    margin: -3px;
 }
 
 .logo img{
   width: 70px;
   height: auto;
+  display: flex;
+  justify-content: left;
 }
 
  .navbutton{
    background-color: #754EF9;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;  
+    /* text-align: center;   */
     line-height: 25px; 
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    list-style-type: none;
 
      
  }
