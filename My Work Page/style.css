@@ -1,0 +1,25 @@
+/* *{
+    border: .5px solid red;
+} */
+/* 
+/* .wraper{
+    width: 90%; 
+    margin: 0%; 
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+    grid-template-rows: 3fr 3fr 3fr;
+    
+
+} */ 
+
+.my-work{
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr;
+    /* justify-content: center; */
+    margin-bottom: 3%;
+}
+
+body{
+    align-content: center;
+}
